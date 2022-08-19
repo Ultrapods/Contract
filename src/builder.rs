@@ -148,3 +148,4 @@ impl Builder {
         self.capabilities.get_mut(namespace).unwrap()
     }
 }
+
