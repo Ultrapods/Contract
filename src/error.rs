@@ -25,3 +25,4 @@ pub enum Error {
     #[error("unable to parse capability as a URI: {0}")]
     UriParse(iri_string::validate::Error),
 }
+
