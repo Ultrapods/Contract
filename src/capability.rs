@@ -95,3 +95,4 @@ impl Contains<str> for [String] {
         self.iter().any(|i| i == other)
     }
 }
+
